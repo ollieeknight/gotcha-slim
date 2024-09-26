@@ -11,10 +11,10 @@ Imports:
     dplyr,
     future,
     future.apply,
-    fs
+    fs,
     readr,
     stringr,
-    progressr
+    progressr,
     ShortRead,
     Biostrings,
     reticulate,
