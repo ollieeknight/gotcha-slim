@@ -47,7 +47,7 @@ check_gotcha_slim_environment <- function(conda_env_name = "r-reticulate") {
 
   # Download the file
   download.file(
-    "https://raw.githubusercontent.com/ollieeknight/gotcha-slim/main/inst/python/gotcha_labeling.py",
+    "https://raw.githubusercontent.com/ollieeknight/gotcha-slim/python/gotcha_labeling.py",
     paste0(find.package('gotchaslim'), '/gotcha_labeling.py'), quiet = T
   )
 
