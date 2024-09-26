@@ -1,4 +1,17 @@
 .onAttach <- function(libname, pkgname) {
+  library(future, quietly = TRUE)
+  library(future.apply, quietly = TRUE)
+  library(ShortRead, quietly = TRUE)
+  library(fs, quietly = TRUE)
+  library(cli, quietly = TRUE)
+  library(stringr, quietly = TRUE)
+  library(progressr, quietly = TRUE)
+  library(data.table, quietly = TRUE)
+  library(Biostrings, quietly = TRUE)
+  library(dplyr, quietly = TRUE)
+  library(data.table, quietly = TRUE)
+
+
   packageStartupMessage(
     "
 ░██████╗░░█████╗░████████╗░█████╗░██╗░░██╗░█████╗░  ░░░░░░  ░██████╗██╗░░░░░██╗███╗░░░███╗
